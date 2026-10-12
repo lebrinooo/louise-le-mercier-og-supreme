@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="Portfolio de Louise Le Mercier, chargée de production freelance à Paris. Publicité, fiction et documentaire.">
+  <meta property="og:title" content="Louise Le Mercier — Chargée de production">
+  <meta property="og:description" content="Des productions solides au service d’images qui restent.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/assets/sampo.jpg">
+  <title>Louise Le Mercier — Chargée de production</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%23ff4f19%22/><text x=%2250%22 y=%2262%22 text-anchor=%22middle%22 font-size=%2242%22 font-family=%22Arial%22 font-weight=%22700%22 fill=%22white%22>LM</text></svg>">
+  <link rel="stylesheet" href="/styles.css">
+  <script defer src="/content.js"></script>
+  <script defer src="/script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#projets">Aller aux projets</a>
+
+  <header class="nav" data-nav>
+    <a class="wordmark" href="#top" aria-label="Accueil">Louise Le Mercier</a>
+    <nav aria-label="Navigation principale">
+      <a href="#projets">Projets</a>
+      <a href="#a-propos">À propos</a>
+      <a class="nav-contact" href="mailto:louiselemercier@icloud.com">Me contacter</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true">
+        <video autoplay muted loop playsinline poster="/assets/sampo.jpg">
+          <source src="https://framerusercontent.com/assets/Q95rz3rUghz5cC7uA1DCKr6l4iQ.mp4" type="video/mp4">
+        </video>
+        <div class="hero-scrim"></div>
+      </div>
+
+      <div class="hero-copy">
+        <p class="availability"><span></span> Chargée de production freelance, Paris</p>
+        <h1 id="hero-title">Des productions solides.<br><em>Des images qui restent.</em></h1>
+        <p class="hero-intro">Publicité, fiction et documentaire. De la préproduction à la livraison, sans perdre de vue l’émotion à l’écran.</p>
+        <a class="text-link light" href="#projets">Voir les projets <span aria-hidden="true">↓</span></a>
+      </div>
+
+      <p class="hero-credit">Génération Sampo · Corée du Sud · 2024–2025</p>
+      <p class="hero-index">01 / 08</p>
+    </section>
+
+    <section class="intro-band" aria-label="Positionnement">
+      <p>J’accompagne les agences et équipes de production sur des formats exigeants, avec une rigueur logistique au service de la vision.</p>
+      <div class="intro-meta">
+        <span>Préproduction</span><span>Tournage</span><span>Postproduction</span><span>Livraison</span>
+      </div>
+    </section>
+
+    <section class="projects" id="projets" aria-labelledby="projects-title">
+      <div class="section-head">
+        <h2 id="projects-title">Projets sélectionnés</h2>
+        <p>Une sélection de productions menées pour des marques, institutions et histoires indépendantes.</p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filtrer les projets">
+        <button class="filter is-active" type="button" data-filter="all">Tout</button>
+        <button class="filter" type="button" data-filter="publicite">Publicité</button>
+        <button class="filter" type="button" data-filter="fiction">Fiction</button>
+        <button class="filter" type="button" data-filter="documentaire">Documentaire</button>
+      </div>
+
+      <div class="project-grid" data-project-grid></div>
+    </section>
+
+    <section class="about" id="a-propos" aria-labelledby="about-title">
+      <div class="about-title-wrap">
+        <p class="section-number">À propos / 02</p>
+        <h2 id="about-title">La rigueur logistique n’a de sens que si elle sert la vision.</h2>
+      </div>
+      <div class="about-copy">
+        <p class="lead">Bretonne de naissance, parisienne d’adoption.</p>
+        <p>Depuis toujours, je suis fascinée par ce que les images peuvent provoquer et l’empreinte qu’elles laissent en nous. Une sensibilité qui m’a naturellement menée vers la production audiovisuelle.</p>
+        <p>Entre mes années en agence, où j’ai appris à jongler avec les plannings et les budgets serrés, et la production de mon propre documentaire à l’étranger, j’ai acquis une conviction : la rigueur logistique n’a de sens que si elle sert la vision artistique et l’émotion à l’écran.</p>
+        <p>Aujourd’hui en freelance, j’accompagne les agences et les équipes de production sur tous types de formats, avec un objectif simple : allier efficacité et exigence visuelle.</p>
+        <p>Et, en tant que barista ratée, j’aime toujours autant parler d’images et de projets autour d’un café.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <p>Un film, une campagne, une histoire à produire ?</p>
+      <h2 id="contact-title">Parlons-en autour<br>d’un café.</h2>
+      <a class="contact-email" href="mailto:louiselemercier@icloud.com">louiselemercier@icloud.com <span aria-hidden="true">↗</span></a>
+      <div class="contact-foot">
+        <span>Basée à Paris · Disponible en freelance</span>
+        <a href="https://www.linkedin.com/in/louise-le-mercier-0a3bb4206/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Louise Le Mercier</span><span>Chargée de production</span><span>© 2026</span>
+  </footer>
+
+  <dialog class="project-dialog" data-dialog aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="Fermer le projet" data-close>Fermer <span>×</span></button>
+    <div class="dialog-inner">
+      <div class="dialog-heading"><p data-dialog-kicker></p><h2 id="dialog-title" data-dialog-title></h2></div>
+      <div class="dialog-media" data-dialog-media></div>
+      <dl class="dialog-meta" data-dialog-meta></dl>
+      <div class="dialog-story" data-dialog-story></div>
+      <div class="dialog-actions"><a class="text-link" data-dialog-link target="_blank" rel="noreferrer">Voir le film <span aria-hidden="true">↗</span></a><button class="text-link next-project" type="button" data-next>Projet suivant <span aria-hidden="true">→</span></button></div>
+    </div>
+  </dialog>
+</body>
+</html>
