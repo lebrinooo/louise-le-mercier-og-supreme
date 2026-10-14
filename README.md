@@ -2,7 +2,7 @@
 
 Portfolio de Louise Le Mercier, chargée de production freelance.
 
-- Site public : <https://louise-le-mercier.vercel.app>
+- Site public : <https://louise-le-mercier-og-supreme.vercel.app>
 - Guide débutante : [GUIDE-LOUISE.md](GUIDE-LOUISE.md)
 - Contenu des projets : [content.js](content.js)
 

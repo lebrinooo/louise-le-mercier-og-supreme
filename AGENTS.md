@@ -12,8 +12,9 @@ This repository is Louise Le Mercier's professional portfolio. Louise does not c
 6. Preserve the current visual system, responsive behavior, accessibility, email address, LinkedIn URL, filters, project dialog, reduced-motion behavior, and Vercel configuration unless the request explicitly targets one of them.
 7. Do not add dependencies, frameworks, analytics, cookies, forms, trackers, environment variables, or secrets without explicit approval.
 8. Run `npm test` after every change. Also verify the changed area at desktop and mobile widths. Do not present the work as complete if either check fails.
-9. Work on a separate branch. Provide a Vercel preview before recommending a merge to `main`.
+9. Always start from an up-to-date `main`, then create a new task branch such as `jules/change-project-text`. The pull request must use `main` as its base and the task branch as its head. Never commit directly to `main`, never open a pull request from `main` into another branch, and never create or reuse a permanent branch named `LOUISE`.
 10. In the final summary, write in simple French: what changed, what was verified, the preview link, and the exact next button Louise should click. Never tell her to use a terminal.
+11. Never change the public site URL or domain in `README.md` unless Louise explicitly requests it and the new URL has been verified in Vercel.
 
 ## Site structure
 

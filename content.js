@@ -29,7 +29,7 @@ window.PORTFOLIO_PROJECTS = {
     alt: 'Campagne Midas Avec Midas, vous pourrez toujours avancer',
     video: 'https://framerusercontent.com/assets/k7amso5HWuMWQH4u4t5MyhSfBCg.mp4',
     meta: [['Rôle', 'Assistante de production'], ['Production', 'BIRTH'], ['Agence', 'Dentsu Creative'], ['Année', '2025']],
-    story: ['Quand les bruits de voiture deviennent un langage à part entière.', 'j'ai pris en charge la postproduction, le suivi de l’étalonnage, la coordination avec les prestataires ainsi que la préparation et la livraison des livrables aux régies, dans le respect des normes techniques et des délais de diffusion.'],
+    story: ['Quand les bruits de voiture deviennent un langage à part entière.', "J’ai pris en charge la postproduction, le suivi de l’étalonnage, la coordination avec les prestataires ainsi que la préparation et la livraison des livrables aux régies, dans le respect des normes techniques et des délais de diffusion."],
     link: ''
   },
   armee360: {
