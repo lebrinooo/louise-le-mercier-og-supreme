@@ -22,6 +22,7 @@ for (const [id, project] of entries) {
   if (!categories.has(project.category)) throw new Error(`${id}: catégorie invalide: ${project.category}`);
   if (!Array.isArray(project.meta) || project.meta.length < 2) throw new Error(`${id}: les crédits sont incomplets.`);
   if (!Array.isArray(project.story) || project.story.length < 2) throw new Error(`${id}: la présentation est incomplète.`);
+  if (/\bLouise\s+(a|est|était|elle)\b/i.test(project.story.join(' '))) throw new Error(`${id}: la présentation parle encore de Louise à la troisième personne.`);
   if (project.image.startsWith('/assets/')) {
     const asset = path.join(root, project.image.slice(1));
     if (!fs.existsSync(asset)) throw new Error(`${id}: image introuvable: ${project.image}`);
@@ -29,7 +30,7 @@ for (const [id, project] of entries) {
 }
 
 const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
-for (const marker of ['data-project-grid', 'data-dialog', 'mailto:louiselemercier@icloud.com', 'linkedin.com/in/louise-le-mercier-0a3bb4206']) {
+for (const marker of ['data-project-grid', 'data-dialog', '/assets/louise-about.jpg', 'Créer avec intention.', 'mailto:louiselemercier@icloud.com', 'linkedin.com/in/louise-le-mercier-0a3bb4206']) {
   if (!html.includes(marker)) throw new Error(`Élément essentiel absent de index.html: ${marker}`);
 }
 
