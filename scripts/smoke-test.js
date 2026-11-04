@@ -29,6 +29,14 @@ for (const [id, project] of entries) {
   }
 }
 
+const expectedArmyVideos = {
+  armee360: 'https://framerusercontent.com/assets/sfIoZzzEnVyEIwd43yZMnfJ1Ht8.mp4',
+  metiers: 'https://framerusercontent.com/assets/fN8OdVhdH85WIQdSZtRqQhQkOo.mp4'
+};
+for (const [id, video] of Object.entries(expectedArmyVideos)) {
+  if (projects[id]?.video !== video) throw new Error(`${id}: mauvaise vidéo Armée associée au projet.`);
+}
+
 const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 for (const marker of ['data-project-grid', 'data-dialog', '/assets/louise-about.jpg', 'Créer avec intention.', 'mailto:louiselemercier@icloud.com', 'linkedin.com/in/louise-le-mercier-0a3bb4206']) {
   if (!html.includes(marker)) throw new Error(`Élément essentiel absent de index.html: ${marker}`);
