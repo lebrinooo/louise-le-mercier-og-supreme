@@ -41,7 +41,7 @@ window.PORTFOLIO_PROJECTS = {
     layout: '',
     image: '/assets/peux-tu.png',
     alt: 'Campagne Armée de Terre Peux-tu le faire',
-    video: 'https://framerusercontent.com/assets/fN8OdVhdH85WIQdSZtRqQhQkOo.mp4',
+    video: 'https://framerusercontent.com/assets/sfIoZzzEnVyEIwd43yZMnfJ1Ht8.mp4',
     meta: [['Rôle', 'Assistante de production'], ['Production', 'BIRTH'], ['Agence', 'Dentsu Creative'], ['Année', '2025']],
     story: ['Montrer le quotidien des soldats sans le lisser.', 'J’ai accompagné la production de trois films TV et digitaux, d’une campagne d’affichage grand format, de l’habillage de tramways et de contenus pour les réseaux sociaux. Tous les soldats à l’écran sont militaires, sans acteur.'],
     link: 'https://www.youtube.com/watch?v=uD_JrFFYjuE&t=22s'
@@ -83,7 +83,7 @@ window.PORTFOLIO_PROJECTS = {
     layout: '',
     image: '/assets/metiers.jpg',
     alt: 'Campagne de recrutement Armée de Terre Vidéos métiers',
-    video: 'https://framerusercontent.com/assets/sfIoZzzEnVyEIwd43yZMnfJ1Ht8.mp4',
+    video: 'https://framerusercontent.com/assets/fN8OdVhdH85WIQdSZtRqQhQkOo.mp4',
     meta: [['Rôle', 'Production intégrale'], ['Production', 'Sixtine'], ['Agence', 'Dentsu Creative'], ['Année', '2025']],
     story: ['Faire découvrir des métiers de l’Armée de Terre encore peu connus.', 'J’ai suivi toute la production : préparation, budget, tournages, postproduction et livraison. J’ai aussi travaillé en immersion avec les régiments et les personnes filmées.'],
     link: 'https://www.youtube.com/watch?v=o-0cncX56nk'
